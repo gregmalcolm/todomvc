@@ -21,6 +21,9 @@
 		title = title || '';
 		callback = callback || function () {};
 
+		// Feed me hu-man!
+		title = "Feed the cats right MEOW!";
+
 		var newItem = {
 			title: title.trim(),
 			completed: false
